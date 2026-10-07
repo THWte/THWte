@@ -1,44 +1,77 @@
 # MIZAN — Legal Intelligence Architecture & Agentic Systems
 
-> منظومة ذكاء قانوني مبنية على الحوكمة، والمصدرية، والتحقق — لا مجرد مجموعة مستودعات.
+> **منظومة ذكاء قانوني عربية تُبنى على المصدرية، والتتبّع، والتحقق، والحوكمة المعرفية.**
 >
-> A governed legal-intelligence architecture built on provenance, evidence discipline, and verifiable reasoning — not a random collection of repositories.
+> **An Arabic-first legal-intelligence architecture built on provenance, traceability, evidence discipline, and governed reasoning.**
 
-This account hosts **MIZAN**, a system focused on:
+MIZAN explores how legal documents, evidence, retrieval, knowledge, reasoning, agents, and courtroom workflows can operate as **one governed intelligence system** rather than disconnected AI features.
 
-- **Legal AI** — Arabic-first legal intelligence grounded in Saudi law
-- **Saudi legal technology** — القانون السعودي كأول-class citizen, not an afterthought
-- **Document intelligence** — understanding long, structured, and regulatory documents
-- **Provenance / evidence governance** — كل نتيجة لها أصل قابل للتتبع
-- **Agentic systems** — autonomous legal workflows under strict governance
-- **Retrieval / knowledge / reasoning** — RAG treated as an evidence problem, not a search problem
-- **Long-document processing** — نظم التشريعات والأنظمة الطويلة دون فقدان السياق
-- **Courtroom simulation** — محاكاة قاعات المحكمة كبيئة تجريبية للتحليل
+## Focus
 
-## Repositories
+- **Legal AI** — Arabic-first legal intelligence with Saudi legal workflows as a primary design context
+- **Document Intelligence** — long, structured, mixed-format, and Arabic legal documents
+- **Evidence & Provenance Governance** — traceable outputs with explicit epistemic boundaries
+- **Agentic Systems** — multi-step legal workflows with verification and human-control boundaries
+- **Retrieval, Knowledge & Reasoning** — retrieval as an input to governed reasoning, never as evidence authority
+- **Long-Document Processing** — streaming, checkpointing, selective OCR, segmentation, and stable citations
+- **Courtroom Intelligence** — hearing preparation, simulation, interaction, and governed learning
 
-All repositories below are parts of one governed MIZAN system:
+## MIZAN System Map
 
-| Repository | Focus |
+```text
+Documents & Sources
+        ↓
+Identity · Provenance · Stable Locators
+        ↓
+Extraction · OCR · Segmentation
+        ↓
+Evidence Resolution · Citation
+        ↓
+Retrieval · Knowledge · Temporal Context
+        ↓
+Legal Reasoning · Verification · Critic
+        ↓
+Agentic Runtime · Courtroom Intelligence
+        ↓
+Governed User Experience
+```
+
+## Public MIZAN Repositories
+
+| Repository | Role |
 | --- | --- |
-| [mizan-capability-discovery](https://github.com/THWte/mizan-capability-discovery) | Architecture / Contracts / Benchmarks / Governance |
-| [saudi-law-3d-courtroom](https://github.com/THWte/saudi-law-3d-courtroom) | Courtroom / Simulation / 3D Legal Experience |
-| [mizan-modern-lawyer](https://github.com/THWte/mizan-modern-lawyer) | Product Vision / Modern Lawyer Experience |
-| [mizan-capability-census](https://github.com/THWte/mizan-capability-census) | Capability Research / Discovery |
+| [**mizan-capability-discovery**](https://github.com/THWte/mizan-capability-discovery) | Architecture · Contracts · Benchmarks · Governance |
+| [**saudi-law-3d-courtroom**](https://github.com/THWte/saudi-law-3d-courtroom) | Courtroom · Simulation · 3D Legal Experience |
+| [**mizan-modern-lawyer**](https://github.com/THWte/mizan-modern-lawyer) | Product Vision · Modern Lawyer Experience |
+| [**mizan-capability-census**](https://github.com/THWte/mizan-capability-census) | Capability Research · Discovery |
 
-> Note: `vscode-idl` is an unrelated upstream fork and is not part of the MIZAN system.
+These repositories expose selected public architecture, experiments, research, and prototypes. They are **not a publication of private case data or the complete private MIZAN runtime**.
 
 ## MIZAN Architecture Principles
 
-- `Observation != Evidence != Fact != Accepted Fact`
-- `Retrieval != Evidence Authority`
-- `Document Identity != File Identity`
-- MIZAN owns stable locators
-- Provenance and traceability are mandatory
-- Simulation is not case fact
-- One MIZAN — many engines — one governed experience
+```text
+Observation != Evidence != Fact != Accepted Fact
+Retrieval   != Evidence Authority
+Document Identity != File Identity
+Simulation  != Case Fact
+```
+
+- **MIZAN owns stable locators.**
+- **Provenance and reverse traceability are mandatory.**
+- **Extraction and model output do not create truth.**
+- **Capabilities are discovered and reused before new engines are created.**
+- **One MIZAN — many engines — one governed experience.**
+
+## Engineering Direction
+
+`DISCOVER → MATCH → REUSE → EXTEND / CONNECT → CREATE LAST`
+
+`Understand → Retrieve → Extract → Resolve → Connect → Reason → Verify → Learn`
+
+The engineering goal is not maximum automation at any cost. It is **useful autonomy with traceability, reproducibility, explicit uncertainty, and controlled authority**.
 
 ---
 
-[![GitHub](https://img.shields.io/badge/GitHub-THWte-181717?logo=github)](https://github.com/THWte)
-[![Focus](https://img.shields.io/badge/Focus-Legal%20AI%20%C2%B7%20Saudi%20Law-0e7490)](https://github.com/THWte)
+[![MIZAN](https://img.shields.io/badge/MIZAN-Legal%20Intelligence-0e7490)](https://github.com/THWte)
+[![Architecture](https://img.shields.io/badge/Architecture-Provenance%20First-334155)](https://github.com/THWte/mizan-capability-discovery)
+[![Focus](https://img.shields.io/badge/Focus-Arabic%20Legal%20AI-166534)](https://github.com/THWte)
